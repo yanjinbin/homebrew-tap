@@ -1,0 +1,11 @@
+{
+  "flclash-ssid": {
+    "repo": "yanjinbin/FlClash-SSID",
+    "tag": "ssid-{app}-{build}",
+    "version": "{app},{build}",
+    "assets": {
+      "arm": "FlClash-{app}-macos-arm64.dmg",
+      "intel": "FlClash-{app}-macos-amd64.dmg"
+    }
+  }
+}
