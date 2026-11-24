@@ -1,18 +1,18 @@
 cask "flclash-ssid" do
-  version "0.9.3,2026111402"
+  version "0.9.4,2026112401"
 
   name "FlClash"
   desc "Proxy client with Wi-Fi SSID mode rules"
   homepage "https://github.com/yanjinbin/FlClash-SSID"
 
   on_arm do
-    sha256 "67a5d84a0850573a6e0393c9ede600c7c5625393fb25200da7e71933b0153237"
-    url "https://github.com/yanjinbin/FlClash-SSID/releases/download/ssid-0.9.3-2026111402/FlClash-0.9.3-macos-arm64.dmg"
+    sha256 "fc16109579336ee1f499bcb1863663bf11b8563a505bd42319fbca879e081d1b"
+    url "https://github.com/yanjinbin/FlClash-SSID/releases/download/ssid-0.9.4-2026112401/FlClash-0.9.4-macos-arm64.dmg"
   end
 
   on_intel do
-    sha256 "0b0617694a3e36c5e8bed8f4a5642fddd94f0fed02d27a3a994a05f3d6514a31"
-    url "https://github.com/yanjinbin/FlClash-SSID/releases/download/ssid-0.9.3-2026111402/FlClash-0.9.3-macos-amd64.dmg"
+    sha256 "562e084d92096989ad54e9c6a70419bfa66153ef001c756933571fa66bdd3df0"
+    url "https://github.com/yanjinbin/FlClash-SSID/releases/download/ssid-0.9.4-2026112401/FlClash-0.9.4-macos-amd64.dmg"
   end
 
   conflicts_with cask: "flclash"
